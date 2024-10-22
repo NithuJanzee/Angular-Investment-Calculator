@@ -36,6 +36,6 @@ export class investmentService {
         // console.log(annualData)
         // this.resultsData = annualData;
         this.resultsData = annualData;
-        console.log(annualData);
+        //console.log(annualData);
     }
 }

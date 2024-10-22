@@ -25,6 +25,8 @@ export class UserInputComponent {
       expectedReturn: +this.enterExpectedReturn(),
       annualInvestment: +this.enterAnnualInvestment()
     })
-  }
 
+    console.log(this.investmentService.resultsData);
+  }
 }
+
